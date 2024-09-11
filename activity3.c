@@ -1,3 +1,4 @@
+// Nathaniel Pranata and Devi Naum 
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,7 +19,7 @@ void task3();
 
 int main() {
     // Task 1: call the first example to show how a pointer to int works
-    // task1();
+    task1();
 
     // Task 2: call the second example that creates static and dynamic arrays
     task2();
