@@ -27,7 +27,7 @@ void ptr_strcpy(char *s, char *t) {
 
 /* Copies the first n characters of t to s */
 void my_strncpy(char *s, char *t, int n) {
-    // TODO: complete this definition
+    
 }
 
 /* Concatenates t to s */
