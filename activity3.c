@@ -19,13 +19,13 @@ void task3();
 
 int main() {
     // Task 1: call the first example to show how a pointer to int works
-    task1();
+    // task1();
 
     // Task 2: call the second example that creates static and dynamic arrays
-    task2();
+    // task2();
 
     // Task 3: call the last example, which does string operations
-    // task3();
+    task3();
 
     return 0;
 }
@@ -143,12 +143,18 @@ void init_array(int *nums, int len, int mult) {
 void task3() {
     char dest[128];
 
+
     array_strcpy(dest, "Array Test Copy!");
     printf("Testing Array Copy: %s\n", dest);
 
     ptr_strcpy(dest, "Pointer Test Copy!");
     printf("Testing Pointer Copy: %s\n", dest);
 
-    // TODO: Add sample calls to my_strcat and my_strncpy here
+
+    my_strncpy(dest, "Pointer Character Test Copy!", 10);
+    printf("Testing Pointer Character Copy: %s\n", dest);
+
+    my_strcat(dest, "BANE!");
+    printf("Testing Pointer Character Copy: %s\n", dest);
 
 }
