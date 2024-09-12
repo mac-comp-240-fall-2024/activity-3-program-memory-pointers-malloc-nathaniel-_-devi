@@ -27,12 +27,25 @@ void ptr_strcpy(char *s, char *t) {
 
 /* Copies the first n characters of t to s */
 void my_strncpy(char *s, char *t, int n) {
-    // TODO: complete this definition
+    int i = 0;
+    while(i< n && ( *s = *t) != '\0' ) {
+	    s++;
+	    t++;
+        i++;
+    }
+
 }
 
 /* Concatenates t to s */
 void my_strcat(char *s, char *t) {
-    // TODO: complete this definition
+    while( *s  != '\0' ) {
+	    s++;
+    }
+     while(( *s = *t) != '\0' ) {
+	    s++;
+        t++;
+    }
+
 }
 
 
